@@ -1,9 +1,75 @@
 @import url(styles/header.css);
 :root{
---cor-de-fundo: #9949B4;
+--cor-de-fundo:rgb(206, 202, 202);
 --cor-cabecalho: #FFFFFF;
 }
 body{
 background-color: var(--cor-de-fundo);
 margin: 0;
+}
+
+.container-titulo{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000; /* Ajuste conforme seu design */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-frase{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000; /* Ajuste conforme seu design */
+    padding: 20px;
+    border-radius: 10px;
+}
+.frase-central {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff; /* Ajuste conforme seu design */
+    background-color: rgba(15, 175, 180, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+.projeto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff; /* Ajuste conforme seu design */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+.imagem-centralizada {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço entre a frase e a imagem */
+}
+
+.imagem-centralizada img {
+    border-radius: 10px; /* Cantos arredondados (opcional) */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra (opcional) */
+}
+.imagem-centralizada img {
+    width: 3px;
+    height: 2px; /* Ajuste conforme necessário */
 }
